@@ -14,4 +14,4 @@ docker run -d -p 19132-19133:19132-19133/udp -h ${server} --name=mc-${server}\
  -v "${work_dir}/server.properties:/opt/minecraft/server.properties:z"\
  -v "${work_dir}/permissions.json:/opt/minecraft/permissions.json:z"\
  -v "${work_dir}/worlds:/opt/minecraft/worlds:z"\
- mladshij/minecraft-bedrockserver
+ mladshij/bedrockserver

@@ -1,9 +1,9 @@
 FROM fedora:latest
 
-LABEL version="1.14.60.5"
+LABEL version="1.16.0.2"
 
 ENV NAME Bedrock-Server
-ENV arc=bedrock-server-1.14.60.5.zip
+ENV arc=bedrock-server-1.16.0.2.zip
 ENV dlarc=https://minecraft.azureedge.net/bin-linux/${arc}
 
 WORKDIR /opt/minecraft

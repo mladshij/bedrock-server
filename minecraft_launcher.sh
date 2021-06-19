@@ -1,7 +1,7 @@
 #!/bin/bash
 
 server=$1
-base_dir="/var/games/MCPE"
+base_dir="/home/ec2-user/mcpe/MCPE"
 work_dir="${base_dir}"/"${server}"
 
 mkdir -p "${work_dir}"
